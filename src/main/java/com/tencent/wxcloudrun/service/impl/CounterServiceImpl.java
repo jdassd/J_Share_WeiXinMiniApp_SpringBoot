@@ -15,6 +15,7 @@ public class CounterServiceImpl implements CounterService {
   final CountersMapper countersMapper;
 
   public CounterServiceImpl(@Autowired CountersMapper countersMapper) {
+    // 测试一下触发更新操作
     this.countersMapper = countersMapper;
   }
 
